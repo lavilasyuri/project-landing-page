@@ -38,6 +38,7 @@
 
 .formulario {
     margin-top: -15px;
+    text-align: center;
 }
 
 input[type=name], input[type=email] {
