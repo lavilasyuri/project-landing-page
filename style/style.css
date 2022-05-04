@@ -2,6 +2,8 @@
 .container-first {
     height: 500px;
     background-color: #f6d7c3;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,6 +98,7 @@ input[type=button] {
     background-color: #ACBFEA;
     padding: 20px 100px 150px 100px;
     text-align: justify;
+    
 }
 
 
@@ -288,4 +291,20 @@ input[type=button] {
     margin-top: 15px;
     margin-left: 850px;
     
+}
+
+    /* responsive */
+
+@media  (max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+    .menu-page {
+        width: 100%;
+    }
+    .container-first{
+        width: 100%;
+    }
 }
